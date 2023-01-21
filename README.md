@@ -1,7 +1,7 @@
 # Blockchain implementation in Java from Scratch
 
 To run the project install
-- JDK 1.8
+- OpenJDK 19
 - JetBrains IntelliJ IDEA
 
 Sample Output
@@ -44,4 +44,36 @@ Block Chain:
     "nonce": 196630
   }
 ]
+```
+Output of Transactions on Blockchain
+```bash
+Creating and Mining Genesis Block
+Transaction successfully added to the chain
+Block Mined!!!, Hash of new block : 0000017c20a99675dcacf4e9ed6c5732061d7c6070b2c260c27a101433c63c4b
+
+WalletA's balance is: 100.0
+
+WalletA is trying to send funds 40.0 to wallet B....
+Transaction successfully added to the chain
+Block Mined!!!, Hash of new block : 00000d357269c4ffdac857cae544a12f40eb05416ef4a2a90d27c4f7dbc6fd10
+
+Wallet A's balance is: 60.0
+Wallet B's balance is: 40.0
+
+WalletA is trying to send funds 1000.0 to wallet B....
+Which it dosen't have
+Not enough funds to send
+Block Mined!!!, Hash of new block : 00000ae7353831e1ae7b1f542759cf416dbf0a106b4a2f124e15c309e3a8ea8c
+
+Wallet A's balance is: 60.0
+Wallet B's balance is: 40.0
+
+WalletA is trying to send funds 20.0 to wallet B....
+Transaction successfully added to the chain
+Block Mined!!!, Hash of new block : 00000b5866170ae149bc89aa138e37bc96eeb93c00ba67356f98f6f8f11f929f
+
+Wallet A's balance is: 40.0
+Wallet B's balance is: 60.0
+
+Process finished with exit code 0
 ```
