@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f55c072-8aca-442e-adec-37871eeaed21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" afterDir="false" />
+    <list default="true" id="1f55c072-8aca-442e-adec-37871eeaed21" name="Changes" comment="Updated blockchain">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bcprov_jdk15on_159.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlockChain/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TransactionInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TransactionOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blockchain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Blockchain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlockChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlockChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +46,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/bovem/Downloads/gson-2.6.2.jar",
+    "last_opened_file_path": "/home/bovem/Downloads/bcprov-jdk15on-159.jar",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -59,7 +62,26 @@
       <option name="presentableId" value="Default" />
       <updated>1674283470625</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated blockchain">
+      <created>1674290064996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674290064996</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated blockchain">
+      <created>1674290345240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674290345240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated blockchain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated blockchain" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
