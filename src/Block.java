@@ -1,2 +1,35 @@
-package PACKAGE_NAME;public class Block {
+import java.util.Date;
+public class Block {
+    public String hash;
+    public String previousHash;
+
+    // Data in the block
+    public String blockData;
+
+    // Timestamp of block creation
+    private long timeStamp;
+    private int nonce;
+
+    public Block(String data, String previousHash){
+        this.blockData = data;
+        this.previousHash = previousHash;
+        this.timeStamp = new Date().getTime();
+        this.hash = calculateHash();
+    }
+
+    public String calculateHash(){
+        String calculatedHash = StringUtil.applySha256(
+                previousHash + Long.toString(timeStamp) + blockData
+        );
+        return calculatedHash;
+    }
+
+    public void mineBlock(int difficulty) {
+        String target = new String(new char[difficulty]).replace('\0', '0');
+        while (!hash.substring(0, difficulty).equals(target)) {
+            nonce++;
+            hash = calculateHash();
+        }
+        System.out.println("Block Mined!!!, Hash of new block : " + hash);
+    }
 }
