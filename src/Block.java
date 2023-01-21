@@ -19,7 +19,7 @@ public class Block {
 
     public String calculateHash(){
         String calculatedHash = StringUtil.applySha256(
-                previousHash + Long.toString(timeStamp) + blockData
+                previousHash + Long.toString(timeStamp) + Integer.toString(nonce) + blockData
         );
         return calculatedHash;
     }
